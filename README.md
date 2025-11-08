@@ -1,7 +1,3 @@
-# Django Auth System Created By Ali
-
----
-
 # 🧑‍💻 Django Authentication System
 
 A simple and secure Django authentication system that includes user registration, login, and password reset (forgot password) functionality.
