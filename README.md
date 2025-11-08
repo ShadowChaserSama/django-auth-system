@@ -132,13 +132,13 @@ Learn more: Google App Passwords Help
 
 ---
 
-#📄 License
+# 📄 License
 
 This project is licensed under the MIT License — feel free to use and modify it for your own projects.
 
 ---
 
-#👨‍💻 Author
+# 👨‍💻 Author
 
 **Əli Zülbalayev**
 Simple, clean, and beginner-friendly Django authentication system ❤️
