@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %}
+    <div class="login-container">
+        {% if user.is_authenticated %}
+            <form action="{% url 'logout' %}" method='post'>
+            <p>Welcome Back, {{ user.username }}!</p>
+            
+            {% csrf_token %}
+            <button type='submit' class='btn btn-danger'>Logout</button>
+            </form>
+        {% else %}
+            <p>Welcome, new user. Please login!</p>
+            <p><a href="{% url 'login' %}">Login</a> or <a href="{% url 'register' %}">Register</a></p>
+        {% endif %}
+    </div>
+{% endblock %}
