@@ -1,28 +1,28 @@
 # 🧑‍💻 Django Authentication System
 
-A simple and secure Django authentication system that includes user registration, login, and password reset (forgot password) functionality.
+A simple and secure Django authentication system that includes user registration, login, and password reset (forgot password) functionality.<br />
 This project is ideal for beginners learning Django authentication or for developers who want to integrate a ready-made auth system into their web applications.
 
 ---
 
 # 🚀 Features
 
-✅ User Registration (with email verification optional)
-✅ User Login & Logout
-✅ Forgot Password (Password Reset via Email)
-✅ Secure Password Hashing
-✅ Django’s built-in Authentication System
-✅ Clean and Responsive Templates (Bootstrap)
-✅ Easy to customize and integrate
+✅ User Registration (with email verification optional)<br />
+✅ User Login & Logout<br />
+✅ Forgot Password (Password Reset via Email)<br />
+✅ Secure Password Hashing<br />
+✅ Django’s built-in Authentication System<br />
+✅ Clean and Responsive Templates (Bootstrap)<br />
+✅ Easy to customize and integrate<br />
 
 ---
 
 # 🛠️ Technologies Used
 
-Python 3.x
-Django 5.x (or compatible version)
-SQLite3 (default, can be changed to PostgreSQL/MySQL)
-Bootstrap 5 (for frontend)
+Python 3.x<br />
+Django 5.x (or compatible version)<br />
+SQLite3 (default, can be changed to PostgreSQL/MySQL)<br />
+Bootstrap 5 (for frontend)<br />
 
 ---
 
@@ -95,6 +95,12 @@ http://127.0.0.1:8000/
 
 In your `settings.py`, configure SMTP to enable the Forgot Password feature.
 
+Go to .env
+```
+MAIL=your_email
+MAIL_PASSWORD=your_app_password
+```
+
 Example using Gmail:
 ```
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -140,7 +146,7 @@ This project is licensed under the MIT License — feel free to use and modify i
 
 # 👨‍💻 Author
 
-**Əli Zülbalayev**
+**Əli Zülbalayev**<br />
 Simple, clean, and beginner-friendly Django authentication system ❤️
 
 
