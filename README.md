@@ -95,7 +95,7 @@ http://127.0.0.1:8000/
 
 In your `settings.py`, configure SMTP to enable the Forgot Password feature.
 
-Go to .env
+Go to .env and
 ```
 MAIL=your_email
 MAIL_PASSWORD=your_app_password
